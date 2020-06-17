@@ -1697,11 +1697,11 @@ input, select, textarea {
 			color: #8d9ca3;
 		}
 
+
 /* Large */
 
 	@media screen and (max-width: 1280px) {
 
-		/* Multi-use */
 
 			.check-list li {
 				font-size: 1em;
@@ -1779,13 +1779,9 @@ input, select, textarea {
 
 	@media screen and (max-width: 980px) {
 
-		/* Basic */
-
 			html, body {
 				overflow-x: hidden;
 			}
-
-		/* Header */
 
 			#header {
 				text-align: center;
@@ -1795,13 +1791,10 @@ input, select, textarea {
 					display: none;
 				}
 
-		/* Content */
-
 			#content {
 				padding: 25px 0;
 			}
 
-		/* Nav */
 
 			#page-wrapper {
 				-moz-backface-visibility: hidden;
@@ -1957,14 +1950,11 @@ input, select, textarea {
 
 	@media screen and (max-width: 736px) {
 
-		/* Basic */
 
 			body, input, textarea, select {
 				font-size: 13pt;
 				line-height: 1.4em;
 			}
-
-		/* Multi-use */
 
 			.link-list li {
 				padding: 0.75em 0 0.75em 0;
@@ -1982,16 +1972,12 @@ input, select, textarea {
 				width: 100%;
 			}
 
-		/* Banner */
-
 			#banner p {
 				font-size: 1.25em;
 				font-weight: 200;
 				line-height: 1.25em;
 				margin: 0 0 1em 0;
 			}
-
-		/* Content */
 
 			#content section {
 				padding: 30px 20px;
@@ -2009,16 +1995,11 @@ input, select, textarea {
 				margin: 0 0 1.25em 0;
 			}
 
-		/* Footer */
-
 			#footer .link-list {
 				margin: 0 0 10px 0 !important;
 			}
 
-		/* Copyright */
-
-			#copyright {
-				padding: 20px 30px;
-			}
 
 	}
+
+	@media (max-width: )
