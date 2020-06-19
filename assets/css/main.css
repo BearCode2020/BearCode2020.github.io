@@ -116,6 +116,30 @@ input, select, textarea {
 		margin-bottom: 0 !important;
 	}
 
+	.contact-info-all {
+		border: solid;
+		border-color: red;
+		align-items: center;
+	}
+
+	.contact-info-all2{
+		border: solid;
+		border-color: black;
+		align-self: center;
+		text-align: center;
+		color: whitesmoke;
+	}
+
+
+	.contact-button {
+		background-color: white;
+		text-decoration: none;
+		border: solid;
+		border-radius: 8px;
+		padding: 8px;
+		text-align: center;
+		font-size: 1.5rem;
+	}
 /* Container */
 
 	.container {
@@ -162,7 +186,11 @@ input, select, textarea {
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
-		align-items: stretch;
+		align-items: center;
+	}
+
+	.row2 {
+		margin-bottom: 8px;
 	}
 
 		.row > * {
@@ -1651,6 +1679,8 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
+		align-items: center;
+		border: solid;
 		padding: 45px 0 45px 0;
 		text-shadow: 1px 1px 1px white;
 		color: #546b76;
@@ -1658,7 +1688,7 @@ input, select, textarea {
 	}
 
 		#footer h2 {
-			font-size: 1.25em;
+			font-size: 1.75em;
 			color: #212f35;
 			margin: 0 0 1em 0;
 		}
